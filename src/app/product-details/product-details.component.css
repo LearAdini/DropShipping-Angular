@@ -67,7 +67,7 @@
   max-width:250px;
 }
 
-.ngx-gallery /deep/ .ngx-gallery-icon {
+.ngx-gallery::ng-deep .ngx-gallery-icon {
   color: rgb(123, 127, 161);
 }
 
