@@ -1,0 +1,17 @@
+
+.title{
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 55px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px #888888;
+}
+
+h4{
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px #e7e7e7;
+}
+

@@ -1,0 +1,41 @@
+nav{
+  border-radius: 0px 0px 10px 10px;
+  margin:auto;
+  width:98%;
+}
+
+.checkout{
+  cursor:pointer;
+  text-align: center;
+  border-radius: 20px;
+  margin-right:25px;
+  padding:6px;
+  width:35px;
+  height:35px;
+  transition-duration: 0.3s;
+}
+
+.checkout:hover{
+  background-color: rgba(255, 255, 255, 0.849);
+  transform: scale(1.03);
+  }
+
+.navbar-brand{
+  font-family: 'Sedgwick Ave', cursive;
+  color:rgb(196, 1, 214);
+  text-shadow: 2px 2px #424242;
+
+}
+
+.navbar-brand:hover{
+  color:rgb(196, 1, 214);
+}
+
+.nav-link{
+  font-family: monospace;
+  /* font-family: 'Poiret One', cursive; */
+  font-size:17px;
+  /* font-weight: bold; */
+}
+
+
