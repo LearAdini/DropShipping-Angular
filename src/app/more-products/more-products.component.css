@@ -45,6 +45,7 @@
   overflow:block;
   text-align: bottom;
   font-family: 'Poiret One', cursive;
+  display:block;
 }
 
 p{
@@ -89,6 +90,11 @@ p{
   width: max-content;
 }
 
+@media  (max-width: 1880px) {
+  .sale{
+    margin-left:210px;
+  }
+}
 
   @media  (max-width: 1558px) {
     .wrapper{
@@ -96,7 +102,7 @@ p{
       display:inline-block;
     }
     .card-wrapper{
-      margin-left:60px;
+      margin-left:10px;
       /* height:775px; */
     }
     .similar-products{
@@ -106,6 +112,12 @@ p{
   
     .card,p{
       margin-top: 13px;
+    }
+    .similar-products{
+      margin-left:650px;
+    }
+    .sale{
+      margin-left:210px;
     }
 
   }
@@ -191,5 +203,23 @@ p{
   }
   .similar-products{
     margin-left:240px;
+  }
+  }
+  @media  (max-width: 648px) {
+    .card-wrapper{
+      margin-left:-15px;
+  }
+  .similar-products{
+    margin-left:200px;
+  }
+  }
+
+  @media  (max-width: 600px) {
+    .card-wrapper{
+      margin-left:-25px;
+
+  }
+  .similar-products{
+    margin-left:180px;
   }
   }
