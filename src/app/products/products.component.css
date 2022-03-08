@@ -1,3 +1,7 @@
+*{
+  display:block;
+}
+
 .card{
   border:none;
   height:255px;
@@ -60,6 +64,6 @@ p{
 }
 
 .wrapper{
-  margin-left: 2%;
-  width:100%;
+  margin-left: 4vh;
+  width:97%;
 }

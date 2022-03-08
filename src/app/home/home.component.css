@@ -1,3 +1,6 @@
+*{
+  display:block;
+}
 
 .title{
   font-family: 'Sedgwick Ave', cursive;

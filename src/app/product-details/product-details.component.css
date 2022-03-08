@@ -1,3 +1,7 @@
+*{
+  display:block;
+}
+
 .ngx-gallery {
   float:left;
   margin-left: 15px;
@@ -87,7 +91,7 @@
 }
 
 .card-wrapper{
-  margin-left: 9%;
+  margin-left: 18vh;
   width: 82%;
 }
 

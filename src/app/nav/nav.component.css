@@ -1,3 +1,7 @@
+*{
+  display:block;
+}
+
 nav{
   border-radius: 0px 0px 10px 10px;
   margin:auto;
@@ -13,6 +17,7 @@ nav{
   width:35px;
   height:35px;
   transition-duration: 0.3s;
+  text-decoration: none;
 }
 
 .checkout:hover{

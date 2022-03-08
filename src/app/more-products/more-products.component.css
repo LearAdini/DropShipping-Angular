@@ -1,10 +1,14 @@
+*{
+  display:block;
+}
+
 .card{
   height:255px;
   width: 248px;
   cursor: pointer;
   border-radius: 5px 5px 0px 0px;
   border-bottom: none;
-  margin-left: 15px;
+  margin-left: 4vh;
   float:left;
   background-repeat: no-repeat;
   background-size: 250px;
@@ -35,7 +39,7 @@
   border:solid 1px red;
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(129, 50, 255) 100%);
   border-radius:0px 0px 5px 0px;
-  margin-left:193px;
+  margin-left:215px;
   margin-top:-42px;
   width:70px;
   overflow:block;
@@ -49,7 +53,7 @@ p{
   background-color: white;
   border-radius:5px;
   width:248px;
-  margin-left: 15px;
+  margin-left: 4vh;
   margin-top: 5px;
   padding: 1px;
   text-align: bottom;
