@@ -4,16 +4,15 @@
 
 #myPaypalButtons {
   max-width:250px;
-  margin-left:28vh;
+  margin-left:27vh;
   }
 
   .wrapper{
     background-color:White;
     border-radius: 5px;
     margin: auto;
-    width: 40%;
+    width: 80vh;
     text-align: center;
-
   }
 
 

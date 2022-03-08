@@ -3,6 +3,7 @@
 }
 
 .card{
+
   border:none;
   height:255px;
   width: 248px;
@@ -66,4 +67,11 @@ p{
 .wrapper{
   margin-left: 4vh;
   width:97%;
+}
+
+@media  (max-width: 1893px) {
+  .wrapper {
+    margin-left:130px;
+      width: 97%;
+  }
 }
