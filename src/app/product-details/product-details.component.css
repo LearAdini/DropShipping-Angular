@@ -86,7 +86,7 @@
   background-color: rgba(255, 255, 255, 0.924);
   border-radius: 0px 2px 2px 0px;
   padding-bottom:148px;
-  height:500px;
+  height:400px;
   overflow:auto;
 }
 
@@ -111,3 +111,79 @@
 .title,#add-cart,#des{
   text-shadow: 0px 0px 2px #fffafa;
 }
+
+@media  (max-width: 1558px) {
+  .card-wrapper{
+    margin-left:370px;
+    display:inline-block;
+  }
+
+  ngx-gallery::ng-deep{
+    height:150px;
+    width:150px;
+    
+  }
+
+  .wrapper{
+    width:449px;
+    margin-left:15px;
+  }
+
+  #strike{
+    width:80%;
+  }
+
+  .title{
+    width:450px;
+  }
+}
+
+@media  (max-width: 845px) {
+  .card-wrapper{
+    margin-left:145px;
+}
+
+}
+
+@media  (max-width: 760px) {
+  .card-wrapper{
+    margin-left:115px;
+}
+}
+
+
+@media  (max-width: 720px) {
+  .card-wrapper{
+    margin-left:95px;
+}
+}
+
+
+
+@media  (max-width: 660px) {
+  .card-wrapper{
+    margin-left:75px;
+}
+}
+
+@media  (max-width: 600px) {
+  .card-wrapper{
+    margin-left:45px;
+}
+}
+
+
+@media  (max-width: 550px) {
+  .card-wrapper{
+    margin-left:25px;
+}
+
+}
+
+@media  (max-width: 510px) {
+  .card-wrapper{
+    margin-left:3px;
+}
+}
+
+

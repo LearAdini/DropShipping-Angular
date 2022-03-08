@@ -89,3 +89,43 @@ p{
   width: max-content;
 }
 
+
+  @media  (max-width: 1558px) {
+    .wrapper{
+     width:580px;
+      display:inline-block;
+    }
+    .card-wrapper{
+      margin-left:320px;
+      height:1275px;
+    }
+    .similar-products{
+      margin-left:550px;
+      width:max-content;
+    }
+  
+    .card,p{
+      margin-top: 13px;
+    }
+  }
+@media  (max-width: 845px) {
+  .wrapper{
+   width:580px;
+    display:inline-block;
+  }
+  .card-wrapper{
+    margin-left:95px;
+    height:1275px;
+  }
+  .similar-products{
+    margin-left:310px;
+    width:max-content;
+  }
+
+  .card,p{
+    margin-top: 13px;
+  }
+}
+
+
+
