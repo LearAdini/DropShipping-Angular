@@ -37,7 +37,6 @@
   overflow: auto;
   margin-left: 8px;
   line-height: 30px;
-  /* font-family: 'Kosugi Maru', sans-serif; */
 }
 
 .add-cart{
@@ -82,14 +81,13 @@
   border:solid 1px rgb(255, 255, 255);
   background-color: rgba(255, 255, 255, 0.924);
   border-radius: 0px 2px 2px 0px;
-  margin-left:15px;
   padding-bottom:148px;
   height:500px;
   overflow:auto;
 }
 
 .card-wrapper{
-  margin-left: 9.6%;
+  margin-left: 9%;
   width: 82%;
 }
 
@@ -104,7 +102,6 @@
   padding-left: -4px;
   font-family: 'Poiret One', cursive;
   font-weight: bolder;
-  /* font-family: 'Dosis', sans-serif; */
 }
 
 .title,#add-cart,#des{

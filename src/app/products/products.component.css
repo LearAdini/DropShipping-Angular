@@ -57,17 +57,9 @@ p{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 4px;
   font-family: 'Kosugi Maru', sans-serif;
-  /* font-weight: bolder; */
 }
 
 .wrapper{
-  margin-left: 2.5%;
-  width:96%;
-  /* cursor: pointer; */
-}
-
-button{
-  border:white;
-  background-color: white;
-  color:white;
+  margin-left: 2%;
+  width:100%;
 }

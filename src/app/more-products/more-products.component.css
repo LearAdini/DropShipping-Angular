@@ -22,7 +22,6 @@
 }
 
 .card img {
-  /* transform: scale(1); */
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   opacity: 0.88;
@@ -32,7 +31,6 @@
 
 .sale{
   cursor: pointer;
-  /* font-weight: bolder; */
   color:white;
   border:solid 1px red;
   background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(129, 50, 255) 100%);
@@ -61,13 +59,6 @@ p{
 
 
 
-button{
-  /* border:white; */
-  background-color: white;
-  color:white;
-}
-
-
 .similar-products{
   cursor: default;
   text-align:center;
@@ -87,7 +78,6 @@ button{
   border-radius: 5px;
   width:101.2%;
   height:24rem;
-  margin-left: 1.5%;
 }
 
 .wrapper{
