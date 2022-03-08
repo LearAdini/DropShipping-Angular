@@ -135,12 +135,15 @@
   }
 
   .title{
-    width:450px;
+    width:899px;
   }
 }
 @media  (max-width: 1114px) {
   .card-wrapper{
     margin-left:300px;
+}
+.title{
+  width:450px;
 }
 
 }
@@ -163,6 +166,7 @@
   .card-wrapper{
     margin-left:210px;
 }
+
 
 }
 
@@ -219,6 +223,15 @@
 @media  (max-width: 510px) {
   .card-wrapper{
     margin-left:3px;
+}
+}
+
+@media  (max-width: 375px) {
+  .card-wrapper{
+    margin-left:5px;
+}
+.similar-products{
+  margin-left:240px;
 }
 }
 

@@ -92,21 +92,22 @@ p{
 
   @media  (max-width: 1558px) {
     .wrapper{
-     width:1280px;
+     width:1430px;
       display:inline-block;
     }
     .card-wrapper{
-      margin-left:180px;
-      height:775px;
+      margin-left:60px;
+      /* height:775px; */
     }
     .similar-products{
-      margin-left:760px;
+      margin-left:740px;
       width:max-content;
     }
   
     .card,p{
       margin-top: 13px;
     }
+
   }
 
   @media  (max-width: 1114px) {
