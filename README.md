@@ -1,27 +1,39 @@
-# DropShipping
+# Drop Shipping SPA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+This is a drop shipping website example I made using Angular.
 
-## Development server
+https://drop-shipping-angular.herokuapp.com
+ ### *Technologies Used:*
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<table>
 
-## Code scaffolding
+<tbody>
+	<tr>
+		<td>Front-End</td>
+		<td>Angular, HTML5, CSS3, Bootstrap</td>
+	</tr>
+</tbody>
+</table>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![ds-home-](https://user-images.githubusercontent.com/80118008/157521186-0c2ab14b-f84b-4009-82d2-8c84a6551b75.gif)
 
-## Build
+#
+Products page displays all products. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+You can buy each product individually by selecting the product or add it to your cart and purchase all products via PayPal payments.
 
-## Running unit tests
+![-ds-products](https://user-images.githubusercontent.com/80118008/157516162-abb9dcb5-705c-402f-9166-3d7f14d9c8ec.gif)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![ds-details](https://user-images.githubusercontent.com/80118008/157515983-a928e59d-b558-457e-a237-c9fa365853e4.gif)
+#
 
-## Running end-to-end tests
+The "Similar Products" will display random products each refresh or when redirecting to a new product.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![-ds-similar-products](https://user-images.githubusercontent.com/80118008/157515999-169bd1c8-09d5-40bb-83d8-c9ed6395d077.gif)
+#
 
-## Further help
+You can remove an item from your cart and the total price will be updated accordingly.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![-ds-cart](https://user-images.githubusercontent.com/80118008/157516027-1c4ea668-9971-4725-bd1f-c9303f8999f7.gif)
+
+
