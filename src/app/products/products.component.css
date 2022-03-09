@@ -252,21 +252,21 @@ p{
 
 @media  (max-width: 705px) {
   .wrapper {
-    margin-left:90px;
-      width: 75%;
+    margin-left:200px;
+      width: 65%;
   }
 }
 
 @media  (max-width: 693px) {
   .wrapper {
-    margin-left:210px;
+    margin-left:190px;
       width: 65%;
   }
 }
 
 @media  (max-width: 645px) {
   .wrapper {
-    margin-left:195px;
+    margin-left:185px;
     width: 65%;
   }
 }
