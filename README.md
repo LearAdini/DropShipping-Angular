@@ -35,3 +35,7 @@ The "Similar Products" will display random products each refresh or when redirec
 You can remove an item from your cart and the total price will be updated accordingly.
 
 ![-ds-cart](https://user-images.githubusercontent.com/80118008/157516027-1c4ea668-9971-4725-bd1f-c9303f8999f7.gif)
+
+### Responsize Screen
+![responsive-ds](https://user-images.githubusercontent.com/80118008/157526648-5caf9165-f855-4f8c-9230-7b8b48c01394.gif)
+
