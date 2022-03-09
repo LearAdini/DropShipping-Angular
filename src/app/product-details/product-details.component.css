@@ -86,7 +86,7 @@
   background-color: rgba(255, 255, 255, 0.924);
   border-radius: 0px 2px 2px 0px;
   padding-bottom:148px;
-  height:400px;
+  height:450px;
   /* width:1090px; */
   overflow:auto;
 }
@@ -95,6 +95,22 @@
   margin-left: 18vh;
   width: 82%;
 }
+
+.success{
+  overflow: hidden;
+  margin-left:417px;
+  width:50px;
+  height:33px;
+  border:none;
+  text-align: center ;
+  margin-top:-34px;
+  border-radius: 2px;
+  background-color: rgba(46, 255, 175, 0.76);
+  animation: fade-in  linear forwards;
+  animation-duration: 3s;
+  cursor:default;
+}
+
 
 .title{
   cursor: default;
@@ -129,7 +145,7 @@
   ngx-gallery::ng-deep{
     height:150px;
     width:150px;
-    
+
   }
 
   .wrapper{
@@ -243,3 +259,16 @@
 }
 
 
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+
+    opacity: 0;
+  }
+}

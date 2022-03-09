@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgxGalleryAnimation, NgxGalleryImage, NgxGalleryOptions } from '@kolkov/ngx-gallery';
 import { render } from 'creditcardpayments/creditCardPayments';
@@ -13,10 +13,12 @@ export class ProductDetailsComponent implements OnInit {
   product: Product | undefined;
   galleryOptions!: NgxGalleryOptions[];
   galleryImages!: NgxGalleryImage[];
+  addedCart : any;
 
   addToCart(product: Product) {
     this.cartService.addToCart(product);
-    window.alert('Your product has been added to the cart!');
+    this.addedCart = true;
+    // window.alert('Your product has been added to the cart!');
   }
 
   constructor(
@@ -50,8 +52,8 @@ export class ProductDetailsComponent implements OnInit {
 
     this.galleryOptions = [
       {
-        width: '450px',
-        height: '400px',
+        width: '500px',
+        height: '450px',
         imagePercent: 100,
         thumbnailsColumns: 4,
         imageAnimation: NgxGalleryAnimation.Slide,

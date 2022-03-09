@@ -14,7 +14,11 @@
  <h4 style="float:left">&nbsp;&nbsp;Total Price: ${{(product.price - (product.price * product.sale / 100)).toFixed(2)}} | Before Sale:</h4><h5 style="margin-top:3px;float:left; text-decoration:line-through"> ${{product.price}}</h5><p style="margin-top: -8px; float:left;">{{product.sale}}%&nbsp;&nbsp;</p>
 </div><button class="add-cart" (click)="addToCart(product)">&nbsp;Add to cart</button>
 <div id="myPaypalButtons"></div>
+<div *ngIf="addedCart">
+  <button class="success">✔</button>
+  </div>
 <br>
+
 </div>
 </div>
 </div>
