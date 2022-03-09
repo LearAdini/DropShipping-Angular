@@ -62,8 +62,6 @@ p{
   padding: 4px;
 }
 
-
-
 .similar-products{
   cursor: default;
   text-align:center;
@@ -75,7 +73,6 @@ p{
   font-weight: bolder;
   color:rgb(24, 24, 24);
 }
-
 
 .card-wrapper{
   float:left;
@@ -90,72 +87,105 @@ p{
   width: max-content;
 }
 
-@media  (max-width: 1880px) {
+
+  @media (max-width: 1880px) {
   .sale{
     margin-left:210px;
   }
-}
-
-  @media  (max-width: 1558px) {
+  }
+  @media (max-width: 1558px) {
     .wrapper{
-     width:1430px;
+      width:595px;
       display:inline-block;
     }
     .card-wrapper{
-      margin-left:10px;
-      /* height:775px; */
+      margin-left:540px;
+      height:1275px;
     }
     .similar-products{
-      margin-left:740px;
+      margin-left:762px;
       width:max-content;
     }
-  
+
     .card,p{
       margin-top: 13px;
     }
+
+    .sale{
+      margin-left:210px;
+    }
+
+  }
+  @media  (max-width: 1275px) {
+    .wrapper{
+      width:595px;
+      display:inline-block;
+    }
+    .card-wrapper{
+      margin-left:280px;
+      height:1275px;
+    }
     .similar-products{
-      margin-left:650px;
+      margin-left:515px;
+      width:max-content;
+    }
+
+    .card,p{
+      margin-top: 13px;
     }
     .sale{
       margin-left:210px;
     }
 
   }
-
   @media  (max-width: 1114px) {
     .wrapper{
       width:595px;
     }
     .card-wrapper{
       height:1275px;
-      margin-left:230px;
+      margin-left:265px;
   }
   .similar-products{
-    margin-left:455px;
+    margin-left:490px;
   }
-
   }
+  @media  (max-width: 1020px) {
 
+    .card-wrapper{
+      margin-left:232px;
+  }
+  .similar-products{
+    margin-left:460px;
+  }
+  }
   @media  (max-width: 968px) {
     .card-wrapper{
-      margin-left:220px;
+      margin-left:248px;
   }
   .similar-products{
-    margin-left:440px;
+    margin-left:478px;
   }
 
   }
-
   @media  (max-width: 930px) {
     .card-wrapper{
-      margin-left:150px;
+      margin-left:170px;
+  }
+  .similar-products{
+    margin-left:400px;
+  }
+
+  }
+  @media  (max-width: 880px) {
+    .card-wrapper{
+      margin-left:140px;
   }
   .similar-products{
     margin-left:370px;
   }
 
   }
-
   @media  (max-width: 845px) {
     .card-wrapper{
       margin-left:90px;
@@ -165,7 +195,6 @@ p{
   }
 
   }
-
   @media  (max-width: 830px) {
     .card-wrapper{
       margin-left:90px;
@@ -175,8 +204,6 @@ p{
   }
 
   }
-
-
   @media  (max-width: 760px) {
     .card-wrapper{
       margin-left:50px;
@@ -186,7 +213,6 @@ p{
   }
 
   }
-
   @media  (max-width: 720px) {
     .card-wrapper{
       margin-left:40px;
@@ -196,7 +222,6 @@ p{
   }
 
   }
-
   @media  (max-width: 648px) {
     .card-wrapper{
       margin-left:5px;
@@ -213,7 +238,6 @@ p{
     margin-left:200px;
   }
   }
-
   @media  (max-width: 600px) {
     .card-wrapper{
       margin-left:-25px;

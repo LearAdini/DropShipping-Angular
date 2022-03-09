@@ -18,6 +18,7 @@ export class ProductDetailsComponent implements OnInit {
   addToCart(product: Product) {
     this.cartService.addToCart(product);
     this.addedCart = true;
+    this.reset_animation();
     // window.alert('Your product has been added to the cart!');
   }
 
@@ -78,4 +79,12 @@ export class ProductDetailsComponent implements OnInit {
     }
     return imgUrls;
   }
+
+   reset_animation() {
+     setTimeout(() => {
+      this.addedCart = false;
+     },3000);
+
+  }
+
 }

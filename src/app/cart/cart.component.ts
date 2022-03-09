@@ -23,16 +23,29 @@ export class CartComponent implements OnInit {
         currency: "USD",
         value: this.cartService.getPrice(),
         onApprove: (details) => {
-          details = this.cartService.getItems()
+          // details = this.cartService.getItems()
           alert('Success');
         }
       });
     }, 1);
 
     this.totalPrice = this.cartService.getPrice();
-    console.log(this.cartService.getItems());
+
+    this.getProducts();
   }
   ngOnInit(): void {
+
+  }
+
+  removeItem(index: number){
+    this.cartService.clearProduct(index);
+    this.totalPrice = this.cartService.getPrice();
+  }
+
+  getProducts() {
+    const prodFromLS:any = localStorage.getItem('item');
+    const product = JSON.parse(prodFromLS);
+    this.cartService.setProduct(product);
   }
 
 }

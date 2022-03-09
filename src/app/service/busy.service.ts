@@ -11,6 +11,6 @@ export class BusyService{
 
     setTimeout(() => {
       this.spinner.hide();
-    }, 1000);
+    }, 500);
   }
 }
