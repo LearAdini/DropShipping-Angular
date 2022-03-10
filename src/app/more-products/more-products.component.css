@@ -99,11 +99,12 @@ p{
       display:inline-block;
     }
     .card-wrapper{
-      margin-left:540px;
-      height:1275px;
+      margin-left:40px;
+      width:1470px;
+      /* height:1275px; */
     }
     .similar-products{
-      margin-left:762px;
+      margin-left:740px;
       width:max-content;
     }
 
@@ -114,19 +115,44 @@ p{
     .sale{
       margin-left:210px;
     }
-
   }
-  @media  (max-width: 1250px) {
+
+  @media  (max-width: 1500px) {
+    .card-wrapper{
+      margin-left:3px;
+  }
+
+    .similar-products{
+      margin-left:635px;
+    }
+  }
+
+  @media  (max-width: 1450px) {
+    .card-wrapper{
+      margin-left:-10px;
+  }
+
+    .similar-products{
+      margin-left:620px;
+    }
+    .sale{
+      margin-left:207px;
+    }
+  }
+
+  @media  (max-width: 1280px) {
     .wrapper{
-      width:595px;
+      width:550px;
       display:inline-block;
     }
     .card-wrapper{
-      margin-left:290px;
-      height:1275px;
-    }
+      width:1400px;
+      /* height:1200px; */
+      margin-left:10px;
+  }
+
     .similar-products{
-      margin-left:515px;
+      margin-left:505px;
       width:max-content;
     }
 
@@ -134,15 +160,14 @@ p{
       margin-top: 13px;
     }
     .sale{
-      margin-left:210px;
+      margin-left:207px;
     }
 
   }
   @media  (max-width: 1114px) {
-    .wrapper{
-      width:595px;
-    }
+
     .card-wrapper{
+      width:595px;
       height:1275px;
       margin-left:265px;
   }
