@@ -164,7 +164,7 @@ p{
   @media  (max-width: 1236px) {
 
     .card-wrapper{
-      width:595px;
+      width:680px;
       height:1275px;
       margin-left:265px;
   }
@@ -176,23 +176,26 @@ p{
 
     .card-wrapper{
       margin-left:232px;
+
   }
   .similar-products{
     margin-left:460px;
   }
   }
   @media  (max-width: 968px) {
+
     .card-wrapper{
-      margin-left:248px;
+      margin-left:155px;
+
   }
   .similar-products{
-    margin-left:478px;
+    margin-left:390px;
   }
 
   }
   @media  (max-width: 930px) {
     .card-wrapper{
-      margin-left:170px;
+      margin-left:200px;
   }
   .similar-products{
     margin-left:400px;
