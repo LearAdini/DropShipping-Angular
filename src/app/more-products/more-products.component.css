@@ -164,7 +164,7 @@ p{
   @media  (max-width: 1236px) {
 
     .card-wrapper{
-      width:680px;
+      width:655px;
       height:1275px;
       margin-left:265px;
   }
@@ -182,7 +182,7 @@ p{
     margin-left:460px;
   }
   }
-  @media  (max-width: 968px) {
+  @media  (max-width: 978px) {
 
     .card-wrapper{
       margin-left:155px;
@@ -195,7 +195,7 @@ p{
   }
   @media  (max-width: 930px) {
     .card-wrapper{
-      margin-left:200px;
+      margin-left:130px;
   }
   .similar-products{
     margin-left:400px;
