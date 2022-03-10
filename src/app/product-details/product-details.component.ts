@@ -15,13 +15,6 @@ export class ProductDetailsComponent implements OnInit {
   galleryImages!: NgxGalleryImage[];
   addedCart : any;
 
-  addToCart(product: Product) {
-    this.cartService.addToCart(product);
-    this.addedCart = true;
-    this.reset_animation();
-    // window.alert('Your product has been added to the cart!');
-  }
-
   constructor(
     private route: ActivatedRoute,
      private cartService: CartService,
@@ -65,6 +58,13 @@ export class ProductDetailsComponent implements OnInit {
     this.galleryImages = this.getImages();
   }
 
+  addToCart(product: Product) {
+    this.cartService.addToCart(product);
+    this.addedCart = true;
+    setTimeout(() => {
+      this.addedCart = false;
+     },3000);
+  }
 
   getImages(): NgxGalleryImage[] {
     const imgUrls: NgxGalleryImage[] = [];
@@ -79,12 +79,4 @@ export class ProductDetailsComponent implements OnInit {
     }
     return imgUrls;
   }
-
-   reset_animation() {
-     setTimeout(() => {
-      this.addedCart = false;
-     },3000);
-
-  }
-
 }

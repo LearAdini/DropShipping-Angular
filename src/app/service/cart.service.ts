@@ -9,13 +9,14 @@ export class CartService {
   items: Product[] = [];
   product!: Product;
 
+  constructor() { }
+
   addToCart(product: Product) {
     this.items.push(product);
-    this.setProduct(product);
+    // this.setProduct(product);
   }
 
   getPrice() {
-
     let total = 0;
     for (let item of this.items) {
       total += (item.price - (item.price * item.sale / 100));
@@ -24,7 +25,6 @@ export class CartService {
   }
 
   getProudctPrice() {
-
     const total = (this.product?.price - (this.product?.price * this.product?.sale / 100)).toFixed(2);
     return total;
   }
@@ -34,14 +34,12 @@ export class CartService {
   }
 
   clearProduct(index:number) {
-    this.items.splice(index, 1);
-  }
-
-  setProduct(product: Product){
-    sessionStorage.setItem('item', JSON.stringify(product));
-    console.log(sessionStorage.getItem('item'));
+   this.items.splice(index, 1);
   }
 
 
-  constructor() { }
+  // setProduct(product: Product){
+  //   localStorage.setItem('item', JSON.stringify(product));
+  // }
+
 }
