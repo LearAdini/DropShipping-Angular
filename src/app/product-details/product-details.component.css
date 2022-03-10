@@ -96,18 +96,16 @@
 }
 
 .success{
-  overflow: hidden;
-  margin-left:417px;
-  width:125px;
-  height:33px;
-  border:none;
-  text-align: center ;
-  margin-top:-34px;
-  border-radius: 0px 10px 10px 0px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  margin-top: 11px;
+  border-radius: 3px;
   background-color: rgba(46, 255, 175, 0.76);
   animation: fade-in linear forwards;
   animation-duration: 3s;
-  cursor:default;
+  cursor: default;
 }
 
 .title{
