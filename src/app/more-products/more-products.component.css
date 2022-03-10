@@ -42,10 +42,9 @@
   margin-left:215px;
   margin-top:-42px;
   width:70px;
-  overflow:block;
+  overflow:hidden;
   text-align: bottom;
   font-family: 'Poiret One', cursive;
-  display:block;
 }
 
 p{
@@ -90,7 +89,7 @@ p{
 
   @media (max-width: 1880px) {
   .sale{
-    margin-left:210px;
+    margin-left:212px;
   }
   }
   @media (max-width: 1558px) {
@@ -101,7 +100,6 @@ p{
     .card-wrapper{
       margin-left:40px;
       width:1470px;
-      /* height:1275px; */
     }
     .similar-products{
       margin-left:740px;
@@ -113,7 +111,7 @@ p{
     }
 
     .sale{
-      margin-left:210px;
+      margin-left:213px;
     }
   }
 
@@ -136,7 +134,7 @@ p{
       margin-left:620px;
     }
     .sale{
-      margin-left:207px;
+      margin-left:213px;
     }
   }
 
@@ -146,8 +144,7 @@ p{
       display:inline-block;
     }
     .card-wrapper{
-      width:1400px;
-      /* height:1200px; */
+      width:1470px;
       margin-left:10px;
   }
 
@@ -160,11 +157,11 @@ p{
       margin-top: 13px;
     }
     .sale{
-      margin-left:207px;
+      margin-left:213px;
     }
 
   }
-  @media  (max-width: 1114px) {
+  @media  (max-width: 1236px) {
 
     .card-wrapper{
       width:595px;
