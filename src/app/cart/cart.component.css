@@ -1,20 +1,11 @@
 *{
-  display:block;
+    display:block;
 }
 
 #myPaypalButtons {
-  max-width:250px;
-  margin: auto;
-  }
-
-  .wrapper{
-    background-color:White;
-    border-radius: 5px;
+    max-width:250px;
     margin: auto;
-    width: 80vh;
-    text-align: center;
   }
-
   .remove{
     border:none;
     border-radius: 5px;
@@ -23,5 +14,16 @@
     height:25px;
   }
 
+  .wrapper{
+    background-color:White;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+  }
 
-
+  @media (max-width:1000px){
+.wrapper{
+  width:400px;
+}
+  }
