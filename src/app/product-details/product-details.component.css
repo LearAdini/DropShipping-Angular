@@ -170,7 +170,7 @@
     margin-left:130px;
 }
 .title{
-  width:500px;
+  width:999px;
 }
 }
 
@@ -181,14 +181,15 @@
 .wrapper{
   margin-left:15px;
 }
-
 }
-@media  (max-width: 1236px) {
+
+@media  (max-width: 1270px) {
   .card-wrapper{
     margin-left:320px;
 }
-
-
+.title{
+  width:500px;
+}
 }
 
 @media  (max-width: 1114px) {
@@ -198,7 +199,6 @@
 .title{
   width:500px;
 }
-
 }
 
 @media  (max-width: 1020px) {
