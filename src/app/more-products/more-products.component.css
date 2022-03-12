@@ -25,7 +25,7 @@
   cursor:pointer;
 }
 
-.card img {
+.card img{
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   opacity: 0.88;
@@ -111,7 +111,7 @@ p{
     .sale{
       margin-left:213px;
     }
-  }
+}
 
   @media  (max-width: 1236px) {
     .card-wrapper{
@@ -122,13 +122,13 @@ p{
   .similar-products{
     margin-left:470px;
   }
-  }
-  @media(max-width: 1114px)
-  {
+}
+
+  @media(max-width: 1114px) {
     .wrapper{
       margin-left:-15px;
   }
-  }
+}
 
   @media (max-width: 1113px)  {
   .wrapper{
@@ -141,4 +141,4 @@ p{
   .similar-products{
     margin-left:-175px;
   }
-  }
+}

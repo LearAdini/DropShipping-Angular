@@ -20,7 +20,6 @@ nav{
   text-decoration: none;
 }
 
-
 .navbar-brand{
   font-family: 'Sedgwick Ave', cursive;
   color:rgb(196, 1, 214);
@@ -37,7 +36,7 @@ nav{
   font-size:17px;
 }
 
-.checkout::before {
+.checkout::before{
   position: absolute;
   background: #ffee10;
   transition: .5s;
@@ -45,16 +44,13 @@ nav{
   z-index: -1;
 }
 
-.checkout:hover::before {
+.checkout:hover::before{
   transform: scale(1.1);
   box-shadow: 0 0 15px #ffee10;
 }
 
-.checkout:hover {
+.checkout:hover{
   color: #ffee10;
   box-shadow: 0 0 5px #ffee10;
   text-shadow: 0 0 5px #ffee10;
 }
-
-
-

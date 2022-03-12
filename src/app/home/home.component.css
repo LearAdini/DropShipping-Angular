@@ -98,6 +98,7 @@ p,h5{
     100% {opacity:1;}
 }
 
+
 @media  (max-width: 1800px) {
   .home-container{
     overflow:hidden;
@@ -118,8 +119,6 @@ p,h5{
     margin-left:160px;
   }
 }
-
-
 
 @media  (max-width: 1558px) {
   .home-container{
@@ -146,11 +145,11 @@ p,h5{
 }
 
 @media  (max-width: 1260px) {
-
   .home-container{
     margin-left:160px;
     width:950px;
     height:890px;
+    margin-bottom: 20px;
   }
   .steps{
     margin-left:-50px;
@@ -267,31 +266,37 @@ p,h5{
     margin-left: -280px;
   }
 }
+
 @media  (max-width: 950px) {
   .home-container{
     margin-left:150px;
   }
 }
+
 @media  (max-width: 900px) {
   .home-container{
     margin-left:120px;
   }
 }
+
 @media  (max-width: 850px) {
   .home-container{
     margin-left:90px;
   }
 }
+
 @media  (max-width: 800px) {
   .home-container{
     margin-left:60px;
   }
 }
+
 @media  (max-width: 750px) {
   .home-container{
     margin-left:40px;
   }
 }
+
 @media  (max-width: 720px) {
     .home-container{
       margin-left:170px;
@@ -369,11 +374,13 @@ p,h5{
     }
 
 }
+
 @media  (max-width: 690px) {
   .home-container{
     margin-left:150px;
   }
 }
+
 @media  (max-width: 650px) {
   .home-container{
     margin-left:120px;
@@ -385,12 +392,14 @@ p,h5{
     margin-left:90px;
   }
 }
+
 @media  (max-width: 550px) {
   .home-container{
     margin-left:60px;
   }
 
 }
+
 @media  (max-width: 500px) {
   .home-container{
     margin-left:50px;

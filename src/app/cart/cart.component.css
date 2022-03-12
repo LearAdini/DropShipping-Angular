@@ -2,10 +2,11 @@
     display:block;
 }
 
-#myPaypalButtons {
+#myPaypalButtons{
     max-width:250px;
     margin: auto;
   }
+
   .remove{
     border:none;
     border-radius: 5px;
@@ -22,8 +23,14 @@
     width: 40%;
   }
 
-  @media (max-width:1000px){
+@media (max-width:1000px){
 .wrapper{
   width:400px;
 }
+}
+
+@media (max-width:600px){
+  .wrapper{
+    width:300px;
+  }
 }
