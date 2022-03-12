@@ -1,6 +1,6 @@
 # Drop Shipping SPA
 
-This is a drop shipping website example I made using Angular.
+This is a drop shipping website example I made using Angular
 
 https://drop-shipping-angular.herokuapp.com
  ### *Technologies Used:*
@@ -18,9 +18,9 @@ https://drop-shipping-angular.herokuapp.com
 ![ds-home-](https://user-images.githubusercontent.com/80118008/157521186-0c2ab14b-f84b-4009-82d2-8c84a6551b75.gif)
 
 #
-Products page displays all products. 
+Products page display all products,
 
-You can buy each product individually by selecting the product or add it to your cart and purchase all products via PayPal payments.
+You can buy each product individually or add it to your cart via PayPal payments.
 
 ![-ds-products](https://user-images.githubusercontent.com/80118008/157516162-abb9dcb5-705c-402f-9166-3d7f14d9c8ec.gif)
 
