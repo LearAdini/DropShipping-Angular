@@ -32,7 +32,7 @@ export class ProductDetailsComponent implements OnInit {
           alert('Success');
         }
       });
-    }, 1);
+    }, 5);
   }
 
   ngOnInit() {

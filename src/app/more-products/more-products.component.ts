@@ -10,8 +10,6 @@ export class MoreProductsComponent implements OnInit {
   products = products;
   constructor() { }
 
-  ngOnInit(): void {
-    // randomItem.multiple([products], 5);
-    // products.find(x=>x.id == Math.floor(Math.random() * products.length));
-  }
+  ngOnInit(): void { }
+
 }

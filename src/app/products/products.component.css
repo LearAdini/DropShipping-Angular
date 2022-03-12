@@ -69,9 +69,43 @@ p{
   width: 107%;
 }
 
-@media  (max-width: 1285px) {
+@media  (max-width: 1360px) {
   .wrapper {
-    margin-left:100px;
+    margin-left:140px;
       width: 85%;
   }
 }
+
+@media  (max-width: 1310px) {
+  .wrapper {
+    margin-left:120px;
+      width: 85%;
+  }
+}
+
+@media (max-width: 1259px)  {
+  .wrapper{
+    margin-left:7% !important;
+      position: relative;
+  }
+  }
+
+  @media (max-width: 1223px)  {
+    .wrapper{
+      margin-left:18% !important;
+        position: relative;
+        width: 80%;
+    }
+    }
+
+  @media (max-width: 649px)  {
+    .wrapper{
+      margin-left:30% !important;
+    }
+    }
+
+    @media (max-width: 400px)  {
+      .wrapper{
+        margin-left:15% !important;
+      }
+      }

@@ -13,7 +13,6 @@ export class CartService {
 
   addToCart(product: Product) {
     this.items.push(product);
-    // this.setProduct(product);
   }
 
   getPrice() {
@@ -36,10 +35,4 @@ export class CartService {
   clearProduct(index:number) {
    this.items.splice(index, 1);
   }
-
-
-  // setProduct(product: Product){
-  //   localStorage.setItem('item', JSON.stringify(product));
-  // }
-
 }
